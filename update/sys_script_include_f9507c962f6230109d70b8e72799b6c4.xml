@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_58872_needit.callAdviser</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description>callAdviser</description>
+        <name>callAdviser</name>
+        <script><![CDATA[function call_adviser()
+    {       
+    var rm = new sn_ws.RESTMessageV2();
+    rm.setHttpMethod('get');
+    rm.setEndpoint('http://172.24.138.132:5000/api/v1.0/manual');
+    rm.setRequestHeader('Content-Type', 'application/json');
+
+ var params = {
+    'n': '3',
+    'show_entities': 'True',
+    'text': 'problemi tecnici. tnp.  non vedo offerta su device'
+  };
+
+var json = new JSON();
+var text = json.encode(params);
+rm.setRequestBody(text);
+var response = rm.execute();
+var body = response.getBody();
+
+
+        gs.info("Body:  "+response.getBody());
+return body;
+	}]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-14 09:42:59</sys_created_on>
+        <sys_id>f9507c962f6230109d70b8e72799b6c4</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>callAdviser</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_script_include_f9507c962f6230109d70b8e72799b6c4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-14 11:46:59</sys_updated_on>
+    </sys_script_include>
+</record_update>
