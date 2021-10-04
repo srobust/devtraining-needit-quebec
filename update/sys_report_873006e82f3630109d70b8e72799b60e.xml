@@ -19,7 +19,7 @@
         <chart_subtitle_color/>
         <chart_subtitle_size>14</chart_subtitle_size>
         <chart_subtitle_style>normal</chart_subtitle_style>
-        <chart_title>NeedIt Requests by Type</chart_title>
+        <chart_title/>
         <chart_title_color display_value="Darkorange">65b30254a9fe3dba00b44ce0710382b3</chart_title_color>
         <chart_title_size>16</chart_title_size>
         <chart_title_style>normal</chart_title_style>
@@ -27,7 +27,7 @@
         <chart_title_y_position>0</chart_title_y_position>
         <chart_width>600</chart_width>
         <color display_value="Default Color">de699435d7033100b4964ebfae610331</color>
-        <color_palette display_value="Greens dark to light (3)">08e1d719d7100200b96d45a3ce610375</color_palette>
+        <color_palette display_value="Default UI14">aa558ab3d7732100fa6c0c12ce610377</color_palette>
         <colors/>
         <column/>
         <compute_percent>aggregate</compute_percent>
@@ -57,7 +57,7 @@
         <interval>year</interval>
         <is_published>false</is_published>
         <is_real_time>false</is_real_time>
-        <is_scheduled>true</is_scheduled>
+        <is_scheduled>false</is_scheduled>
         <legend_align_columns>true</legend_align_columns>
         <legend_background_color/>
         <legend_border_color/>
@@ -77,7 +77,7 @@
         <page_hdrftr/>
         <pivot_expanded>true</pivot_expanded>
         <report_drilldown/>
-        <report_source display_value="Active NeedIt Requests (NeedIt)">c71f312c2f3630109d70b8e72799b653</report_source>
+        <report_source/>
         <roles/>
         <row/>
         <sc_groupby_item_id/>
@@ -98,24 +98,24 @@
         <show_legend_border>false</show_legend_border>
         <show_marker>false</show_marker>
         <show_zero>false</show_zero>
-        <source_type>source</source_type>
+        <source_type>table</source_type>
         <start_time/>
         <style_config/>
         <sumfield/>
         <sys_class_name>sys_report</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-09-21 09:39:11</sys_created_on>
-        <sys_id>556670a42f7230109d70b8e72799b614</sys_id>
-        <sys_mod_count>8</sys_mod_count>
-        <sys_name>NeedIt Requests by Type</sys_name>
+        <sys_created_on>2021-09-21 15:01:48</sys_created_on>
+        <sys_id>873006e82f3630109d70b8e72799b60e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Active NeedIt Requests by Type</sys_name>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
-        <sys_update_name>sys_report_556670a42f7230109d70b8e72799b614</sys_update_name>
+        <sys_update_name>sys_report_873006e82f3630109d70b8e72799b60e</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-10-04 08:01:58</sys_updated_on>
+        <sys_updated_on>2021-09-21 15:02:39</sys_updated_on>
         <table>x_58872_needit_needit</table>
-        <title>NeedIt Requests by Type</title>
+        <title>Active NeedIt Requests by Type</title>
         <title_horizontal_alignment>left</title_horizontal_alignment>
         <title_vertical_alignment>top</title_vertical_alignment>
         <to/>
